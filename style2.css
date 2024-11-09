@@ -1,0 +1,77 @@
+body {
+    background: url(https://icontinental.edu.pe/wp-content/uploads/2022/01/nota-ica.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+}
+
+.content.infor {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    margin: 20px 0;           
+}
+
+.box {
+    width: 80%;               
+    max-width: 800px;         
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); 
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: left;         /* Alinea el texto a la izquierda para que sea más legible */
+}
+
+h2.title {
+    font-size: 24px;          /* Tamaño de título */
+    margin-bottom: 15px;      /* Espacio debajo del título */
+}
+
+p {
+    margin-bottom: 10px;      /* Espacio entre párrafos */
+    font-size: 18px;
+}
+
+/* Estilo específico para la sección "Ofrecemos" */
+.content.sau {
+    padding: 40px 20px;
+    background: #171717;      /* Fondo oscuro, similar al de otras secciones */
+}
+
+.content.sau h2 {
+    font-size: 30px;         /* Tamaño de título más grande para destacar */
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box-container .box {
+    width: 250px;                /* Mantiene el tamaño de los cuadros en esta sección */
+    background: transparent;     /* Fondo transparente para no interferir con el fondo principal */
+    border: none;                /* Elimina el borde para que no sea visible */
+    color: #fff;                 /* Texto blanco para visibilidad */
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5); /* Sombreado para dar profundidad */
+}
+
+
+.box-container .box i {
+    font-size: 2rem;
+    margin: 10px 0;
+    color: #9c27b0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+}
+
